@@ -21,9 +21,9 @@ namespace miniplc0 {
 		ErrNoError, // Should be only used internally.
 		ErrStreamError, 
 		ErrEOF,
-		ErrInvalidInput,
+		ErrInvalidInput, //used
 		ErrInvalidIdentifier,
-		ErrIntegerOverflow, // int32_t overflow.
+		ErrIntegerOverflow, // int32_t overflow. used
 		ErrNoBegin,
 		ErrNoEnd,
 		ErrNeedIdentifier,

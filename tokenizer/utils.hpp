@@ -1,4 +1,4 @@
-#pragma once
+#pragma once //创建过程中该编译指示所在的文件仅仅被编译程序包含（打开）一次
 
 #include <cctype>
 
