@@ -8,7 +8,7 @@
 	inline bool f(char ch){ \
 		return std::f(static_cast<unsigned char>(ch)); \
 	} \
-	using __let_this_macro_end_with_a_simicolon_##f = int
+	using __let_this_macro_end_with_a_semicolon_##f = int
 
 namespace miniplc0 {
 	IS_FUNC(isprint);
